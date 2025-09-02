@@ -8,6 +8,19 @@ body {
 	padding: 0px;
 	background-color: black;
 	font-family: 'Microsport', sans-serif;
+
+
+
+	background-size: cover;
+
+	background-color: black;
+	background-image:
+		radial-gradient(
+			circle closest-side,
+			rgba(89, 206, 143, 0.4) 0%,
+			black 80%
+		);
+    background-position: bottom;
 }
 
 .navbar {
@@ -24,17 +37,17 @@ body {
 
 #hero-section {
 	height: 65vh;
-	background-position: center;
+	/*background-position: center;
 	background-size: cover;
 
 	background-color: black;
 	background-image:
 		radial-gradient(
-			circle closest-side,
+			circle farthest-side,
 			rgba(89, 206, 143, 0.4),
 			black
 		);
-
+    background-position: bottom; */
 	border: solid;
 	border-color: transparent; 
 	margin-left: 15%;
