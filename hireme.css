@@ -28,33 +28,29 @@ body {
 	background-size: cover;
 
 	background-color: black;
-/*
-	background-image:
-		radial-gradient(
-			circle closest-side,
-			rgba(89, 206, 143, 0.4),
-			black
-		);
-*/
-
 	border: solid;
 	border-color: transparent; 
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-
+.center {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+}
 
 .contact-section {
   border: solid;
   border-color: rgba(200, 0, 255, 1.0); 
   border-radius: 20px;
   box-shadow: rgba(255, 0, 255, 0.56) 0px 0px 70px 4px;
-  width: 100%;
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 18rem;
   padding: 3rem 1rem;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .contact-intro > * + * {
@@ -140,7 +136,7 @@ body {
 .footer {
 	color: #e8f9fd;
 	color: grey;
-	font-size: 15px;
+	font-size: 10px;
     height: 10vh;
 	border: solid;
 	border-color: transparent;
@@ -149,4 +145,159 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
+}
+
+@media(min-width: 768px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        font-family: 'Microsport', sans-serif;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .nav-item {
+        cursor: pointer;
+    }
+
+    #hero-section .container-fluid {
+        background-color: transparent;
+    }
+
+    #hero-section {
+        height: 20vh;
+        background-position: center;
+        background-size: cover;
+
+        background-color: black;
+    /*
+        background-image:
+            radial-gradient(
+                circle closest-side,
+                rgba(89, 206, 143, 0.4),
+                black
+            );
+    */
+
+        border: solid;
+        border-color: transparent; 
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+
+
+    .contact-section {
+      border: solid;
+      border-color: rgba(200, 0, 255, 1.0); 
+      border-radius: 20px;
+      box-shadow: rgba(255, 0, 255, 0.56) 0px 0px 70px 4px;
+      width: 100%;
+      max-width: 40rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3rem 1rem;
+    }
+
+    .contact-intro > * + * {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .contact-title {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      font-weight: 700; 
+      text-align: center;
+      color: #2D6BB3;
+    }
+
+    .form-input {
+    }
+
+    .contact-description {
+      color: rgb(107 114 128);
+    }
+
+    .form-group-container {
+      display: grid;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-label {
+      margin-bottom: 0.5rem;
+    }
+
+    .form-input,
+    .form-textarea {
+      padding: 0.5rem;
+      border: 2px solid #E8F9FD;
+      display: flex;
+      height: 2.5rem;
+      width: 100%;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      line-height: 1.25rem; 
+      background: #000000;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(43, 3, 51, 1) 72%, rgba(87, 14, 68, 1) 100%);
+      color: #E8F9FD;
+    }
+
+    .form-input::placeholder,
+    .form-textarea::placeholder, 
+    .form-textarea:focus-visible {
+      color: #6b7280;
+    }
+
+    .form-textarea:focus-visible {
+      color: #E8F9FD;
+    }
+
+    .form-input:focus-visible,
+    .form-textarea:focus-visible {
+      outline: 2px solid #2563eb;
+      outline-offset: 2px;
+    }
+
+    .form-textarea {
+      min-height: 120px;
+    }
+
+    .form-submit {
+      width: 100%;
+      margin-top: 1.2rem;
+      background-color: #204D85;
+      color: #E8F9FD;
+      padding: 13px 5px;
+      border-radius: 0.375rem;
+    }
+
+
+    .footer {
+        color: #e8f9fd;
+        color: grey;
+        font-size: 10px;
+        height: 10vh;
+        border: solid;
+        border-color: transparent;
+        margin-bottom: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
 }
