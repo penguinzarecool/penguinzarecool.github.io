@@ -1,0 +1,155 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	font-family: 'Microsport', sans-serif;
+
+
+
+	background-size: cover;
+
+	background-color: black;
+    background-position: bottom;
+}
+
+.navbar {
+	background-color: transparent !important;
+}
+
+.nav-item {
+	cursor: pointer;
+}
+
+#hero-section .container-fluid {
+	background-color: transparent;
+}
+
+#hero-section {
+	height: 65vh;
+	/*background-position: center;
+	background-size: cover;
+
+	background-color: black;
+	background-image:
+		radial-gradient(
+			circle farthest-side,
+			rgba(89, 206, 143, 0.4),
+			black
+		);
+    background-position: bottom; */
+	border: solid;
+	border-color: transparent; 
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.footer {
+	color: #e8f9fd;
+	color: grey;
+	font-size: 15px;
+	border: solid;
+	border-color: transparent;
+	height: 15vh;
+	margin-bottom: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+@media(min-width:768px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        font-family: 'Microsport', sans-serif;
+
+
+
+        background-size: cover;
+
+        background-color: black;
+        background-position: bottom;
+    }
+
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .nav-item {
+        cursor: pointer;
+    }
+
+    #hero-section .container-fluid {
+        background-color: transparent;
+    }
+
+    #hero-section {
+        height: 65vh;
+        /*background-position: center;
+        background-size: cover;
+
+        background-color: black;
+        background-image:
+            radial-gradient(
+                circle farthest-side,
+                rgba(89, 206, 143, 0.4),
+                black
+            );
+        background-position: bottom; */
+        border: solid;
+        border-color: transparent; 
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .title {
+        margin: 80px;
+        text-align: center;
+    }
+
+    .title h1 {
+        font-size: 70px;
+        color: #E8F9FD;
+        text-shadow: 3px 3px 5px #3e91a3;
+    }
+    
+    .title h3 {
+        padding-top: 30px;
+        font-size: 25px;
+        color: #34b4eb;
+    }
+
+    .picture {
+        width: 400px;
+        float: left;
+        margin-right: 40px;
+    }
+
+    .words {
+    }
+    
+    .footer {
+        color: #e8f9fd;
+        color: grey;
+        font-size: 15px;
+        border: solid;
+        border-color: transparent;
+        height: 15vh;
+        margin-bottom: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+}
