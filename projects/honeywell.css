@@ -137,7 +137,9 @@ body {
     }
 
     .words {
-        color: #69848a;
+        color: #84a6ad;
+        line-height: 50px;
+        letter-spacing: 1px;
     }
     
     .footer {
